@@ -34,3 +34,6 @@ Non è uno strumento di spionaggio.
 ### Installazione delle librerie
 
 Apri un terminale (PowerShell o CMD) e esegui:
+```bash
+pip install -r requirements.txt
+```

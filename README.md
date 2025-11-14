@@ -92,4 +92,7 @@ py -m pip install nuitka
 ```bash
 py -m nuitka --standalone --onefile --windows-disable-console keylogger.py                       
 ```
+# 🥇 Dimostrazione:
+![IMG_3669](https://github.com/user-attachments/assets/c788d680-a3e4-4d57-87b9-0028f660817a)
+
 **Nota:** Non mi assumo responsabilità di utilizzi illegittimi e per scopi illegali. Questo è un progetto scolastico.

@@ -1,5 +1,4 @@
-# 🛡️ Keylogger Etico per la Cyber Threat Intelligence
-
+# 🛡️ Keylogger Etico - Red Teaming Project
 
 Spython è un keylogger sviluppato in Python e nato come progetto accademico nell’ambito del **Red Teaming**.  
 Questo strumento dimostra come funzionano tecniche di keylogging, rilevamento dei processi e cattura di screenshot che sono tipiche dei malware reali. 
@@ -9,7 +8,7 @@ Questo strumento dimostra come funzionano tecniche di keylogging, rilevamento de
 Non è un malware. Non è uno strumento di spionaggio. 
 È un **simulatore controllato** per comprendere le minacce e imparare a difendersi.
 
-> 🔐 **Strumento Educativo — Realizzato per Imparare, Non per Abusare. Non mi assumo responsabilità di nessun uso illecito o illegale.**
+> 🔐 **Strumento Educativo — Realizzato per Imparare, Non per Abusare. Non mi assumo responsabilità di nessun uso illecito o illegale. Anche se il programma è educativo, molti antivirus (es. Windows Defender) lo rileveranno come malware, perché le sue funzionalità (keylogging, screenshot, invio dati) sono tipiche di software malevoli. È normale che venga bloccato o cancellato.**
 
 
 ## 🧩 Funzionalità Implementate
@@ -83,4 +82,14 @@ USER_ID = "IL_TUO_USER_ID_QUI"
 ```
 Ora puoi eseguire il programma e ricevere i dati su Telegram.
 
-- 
+# 🫣 Trasformare il file in .exe
+- Possiamo trasformare il nostro file .py in un eseguibile `.exe` tramite **Nuitka**:
+- Come primo passo dobbiamo installare l'apposita liberia:
+```bash
+py -m pip install nuitka
+```
+- Una volta installatele librerie possiamo compilare il file .py:
+```bash
+py -m nuitka --standalone --onefile --windows-disable-console keylogger.py                       
+```
+**Nota:** Non mi assumo responsabilità di utilizzi illegittimi e per scopi illegali. Questo è un progetto scolastico.

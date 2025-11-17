@@ -20,6 +20,10 @@ Non è un malware. Non è uno strumento di spionaggio.
 🔹 **Pulizia automatica dei file temporanei**: gli screenshot vengono cancellati immediatamente dopo l’invio  
 🔹 **Compilazione in .exe autonomo**: grazie a Nuitka, il programma può essere eseguito su qualsiasi PC Windows senza Python installato  
 🔹 **Modalità silenziosa**: nessuna finestra di comando visibile (`--windows-disable-console`)
+🔹 **Cattura informazioni Sistema operativo**: Cattura delle informazioni del sistema operativo del dispositivo.
+🔹 **Wi-Fi passowrd scraper**: cattura della password del Wi-Fi attualmente connesso alla macchina.
+
+
 
 
 ## 🛠️ Dipendenze e Installazione
@@ -92,7 +96,10 @@ py -m pip install nuitka
 ```bash
 py -m nuitka --standalone --onefile --windows-disable-console keylogger.py                       
 ```
-# 🥇 Dimostrazione:
+# 🥇 Dimostrazione - basic version:
 ![IMG_3669](https://github.com/user-attachments/assets/c788d680-a3e4-4d57-87b9-0028f660817a)
+## 🥇 Dimostrazione - advanced version:
+![IMG_3684](https://github.com/user-attachments/assets/1f261ebb-35ac-401f-9b4d-de04af366436)
+
 
 **Nota:** Non mi assumo responsabilità di utilizzi illegittimi e per scopi illegali. Questo è un progetto scolastico.

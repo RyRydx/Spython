@@ -1,5 +1,5 @@
+![logo](https://github.com/user-attachments/assets/1ca87c72-951c-41ec-8286-a4d5d3a81536)
 
-![Gemini_Generated_Image_uerxbruerxbruerx](https://github.com/user-attachments/assets/52ab51d8-1128-433a-9a0a-ef0a19dffafb)
 # 🛡️ Keylogger Etico - Red Teaming Project
 
 Spython è un keylogger sviluppato in Python e nato come progetto accademico nell’ambito del **Red Teaming**.  
